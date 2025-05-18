@@ -20,7 +20,8 @@ CC => 11 + 1 = 12
 
 # Тест случаи според критериумот Every statement
 
-//test1
+//test1 
+
         Item item1 = new Item("Book", 1, 100, 0.0);
         double result1 = SILab2.checkCart(List.of(item1), "1234567812345678");
         double expected1 = 200.0;
@@ -72,7 +73,8 @@ CC => 11 + 1 = 12
 
 # Тест случаи според критериумот Every path
 
-//A:
+//A:    
+
         price > 300
         Item itemA = new Item("Laptop", 1, 350, 0.0);
         double resultA = SILab2.checkCart(List.of(itemA), "1234567812345678");
